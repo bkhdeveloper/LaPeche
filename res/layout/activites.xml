@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/contents"
+        android:layout_width="1280px"
+        android:layout_height="800px"
+        android:layout_gravity="center"
+        android:background="@drawable/interface_episode" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/exit"
+                android:layout_width="44px"
+                android:layout_height="43px"
+                android:layout_marginLeft="84px"
+                android:layout_marginTop="50px"
+                android:src="@drawable/bt_exit" />
+
+            <ImageView
+                android:id="@+id/home"
+                android:layout_width="68px"
+                android:layout_height="60px"
+                android:layout_marginLeft="137px"
+                android:layout_marginTop="30px"
+                android:src="@drawable/bt_home" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/barre"
+            android:layout_width="30px"
+            android:layout_height="573px"
+            android:layout_marginLeft="1008px"
+            android:layout_marginTop="172px"
+            android:background="@drawable/barre" />
+
+        <ImageView
+            android:id="@+id/activites"
+            android:layout_width="413px"
+            android:layout_height="270px"
+            android:layout_marginLeft="820px"
+            android:layout_marginTop="175px"
+            android:background="@drawable/bt_activites" />
+
+        <ImageView
+            android:id="@+id/loup"
+            android:layout_width="188px"
+            android:layout_height="240px"
+            android:layout_marginLeft="866px"
+            android:layout_marginTop="450px"
+            android:background="@drawable/loup_act" />
+
+        <ImageView
+            android:id="@+id/neige"
+            android:layout_width="1260px"
+            android:layout_height="180px"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/neige_episode" />
+
+        <ImageView
+            android:id="@+id/activitie1"
+            android:layout_width="280px"
+            android:layout_height="184px"
+            android:layout_marginLeft="94px"
+            android:layout_marginTop="294px"
+            android:background="@drawable/activitie1" />
+
+        <ImageView
+            android:id="@+id/activitie2"
+            android:layout_width="280px"
+            android:layout_height="184px"
+            android:layout_marginLeft="456px"
+            android:layout_marginTop="352px"
+            android:background="@drawable/activitie2" />
+
+        <ImageView
+            android:id="@+id/activitie3"
+            android:layout_width="280px"
+            android:layout_height="184px"
+            android:layout_marginLeft="160px"
+            android:layout_marginTop="508px"
+            android:background="@drawable/activitie3" />
+
+        <include
+            android:id="@+id/exit_popup"
+            android:layout_width="1280px"
+            android:layout_height="800px"
+            layout="@layout/exit" />
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/contents"
+        android:layout_width="1280px"
+        android:layout_height="800px"
+        android:layout_gravity="center"
+        android:background="@drawable/sc3_ep1" >
+
+        <ImageView
+            android:id="@+id/bucheron1"
+            android:layout_width="284px"
+            android:layout_height="443px"
+            android:layout_marginLeft="750px"
+            android:layout_marginTop="280px"
+            android:background="@drawable/bucheron1_sc3" />
+
+        <ImageView
+            android:id="@+id/bucheron2"
+            android:layout_width="318px"
+            android:layout_height="371px"
+            android:layout_marginLeft="550px"
+            android:layout_marginTop="120px"
+            android:background="@drawable/bucheron2_sc3" />
+
+        <ImageView
+            android:id="@+id/renard"
+            android:layout_width="351px"
+            android:layout_height="331px"
+            android:layout_marginLeft="927px"
+            android:layout_marginTop="148px"
+            android:background="@drawable/renard_sc3" />
+
+        <ImageView
+            android:id="@+id/arbre"
+            android:layout_width="230px"
+            android:layout_height="186px"
+            android:layout_marginLeft="520px"
+            android:layout_marginTop="390px"
+            android:background="@drawable/arbre_sc3" />
+
+        <ImageView
+            android:id="@+id/perso"
+            android:layout_width="314px"
+            android:layout_height="278px"
+            android:layout_marginLeft="600px"
+            android:layout_marginTop="300px"
+            android:background="@drawable/perso_sc3" />
+
+         <ImageView
+            android:layout_width="640px"
+            android:layout_height="479px"
+            android:layout_marginTop="260px"
+            android:background="@drawable/texte_sc1" />
+
+        <RelativeLayout
+            android:layout_width="470px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90px"
+            android:layout_marginTop="320px" >
+
+            <TextView
+                android:id="@+id/baseTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FF4500"
+                android:textSize="36px" />
+
+            <TextView
+                android:id="@+id/ka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="36px" />
+        </RelativeLayout>
+
+        <include
+            android:id="@+id/scene_controle"
+            android:layout_width="1280px"
+            android:layout_height="800px"
+            layout="@layout/scene" />
+
+        <include
+            android:id="@+id/exit_popup"
+            android:layout_width="1280px"
+            android:layout_height="800px"
+            layout="@layout/exit" />
+    </RelativeLayout>
+
+</FrameLayout>

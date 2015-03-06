@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_exit"
+    android:layout_width="1280px"
+    android:layout_height="800px"
+    android:background="@drawable/bg_noir_400"
+    android:visibility="invisible">
+
+    <ImageView
+        android:id="@+id/popup"
+        android:layout_width="690px"
+        android:layout_height="767px"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="310px"
+        android:layout_marginTop="10px"
+        android:src="@drawable/popup_down" />
+
+    <ImageView
+        android:id="@+id/activite"
+        android:layout_width="143px"
+        android:layout_height="59px"
+        android:layout_marginLeft="540px"
+        android:layout_marginTop="360px"
+        android:background="@drawable/act_accueil" />
+
+    <ImageView
+        android:id="@+id/quiz"
+        android:layout_width="162px"
+        android:layout_height="59px"
+        android:layout_marginLeft="535px"
+        android:layout_marginTop="440px"
+        android:background="@drawable/act_quizz" />
+
+    <ImageView
+        android:id="@+id/suivant"
+        android:layout_width="270px"
+        android:layout_height="59px"
+        android:layout_marginLeft="480px"
+        android:layout_marginTop="520px"
+        android:background="@drawable/act_suivant"
+        android:visibility="invisible"/>
+
+
+</RelativeLayout>

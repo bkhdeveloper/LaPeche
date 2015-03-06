@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/contents"
+        android:layout_width="1280px"
+        android:layout_height="800px"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_home" >
+
+        <ImageView
+            android:id="@+id/exit"
+            android:layout_width="44px"
+            android:layout_height="43px"
+            android:layout_marginLeft="85px"
+            android:layout_marginTop="50px"
+            android:src="@drawable/bt_exit" />
+
+        <ImageView
+            android:id="@+id/renard2"
+            android:layout_width="179px"
+            android:layout_height="233px"
+            android:layout_marginLeft="50px"
+            android:layout_marginTop="240px"
+            android:background="@drawable/renard2" />
+
+        <ImageView
+            android:id="@+id/renard1"
+            android:layout_width="466px"
+            android:layout_height="493px"
+            android:layout_marginLeft="40px"
+            android:layout_marginTop="250px"
+            android:background="@drawable/renard1" />
+
+        <ImageView
+            android:id="@+id/texte1"
+            android:layout_width="433px"
+            android:layout_height="411px"
+            android:layout_marginLeft="425px"
+            android:layout_marginTop="60px"
+            android:background="@drawable/texte1" />
+        <ImageView
+            android:id="@+id/barre"
+            android:layout_width="30px"
+            android:layout_height="573px"
+            android:layout_marginLeft="1018px"
+            android:layout_marginTop="220px"
+            android:background="@drawable/barre" />
+        <ImageView
+            android:id="@+id/btn_episode"
+            android:layout_width="495px"
+            android:layout_height="268px"
+            android:layout_marginLeft="760px"
+            android:layout_marginTop="211px"
+            android:background="@drawable/bt_episode" />
+        <ImageView
+            android:id="@+id/btn_activite"
+            android:layout_width="413px"
+            android:layout_height="270px"
+            android:layout_marginLeft="800px"
+            android:layout_marginTop="380px"
+            android:background="@drawable/bt_activites" />
+
+
+
+        <ImageView
+            android:id="@+id/btn_about"
+            android:layout_width="143px"
+            android:layout_height="297px"
+            android:layout_marginLeft="1100px"
+            android:layout_marginTop="500px"
+            android:background="@drawable/bt_about2" />
+
+        <include
+            android:id="@+id/exit_popup"
+            android:layout_width="1280px"
+            android:layout_height="800px"
+            layout="@layout/exit" />
+    </RelativeLayout>
+
+</FrameLayout>

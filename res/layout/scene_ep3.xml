@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/scene"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/contents"
+        android:layout_width="1280px"
+        android:layout_height="800px"
+        android:layout_gravity="center" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/exit"
+           android:layout_width="54px"
+            android:layout_height="53px"
+            android:layout_marginLeft="55px"
+            android:layout_marginTop="40px"
+            android:src="@drawable/bt_exit" />
+
+        <ImageView
+            android:id="@+id/home"
+            android:layout_width="68px"
+            android:layout_height="60px"
+            android:layout_marginLeft="137px"
+            android:layout_marginTop="30px"
+            android:src="@drawable/bt_home" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="96px"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10px">
+
+        <ImageView
+            android:id="@+id/suivant"
+            android:layout_width="78px"
+            android:layout_height="78px"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="640px"
+            android:src="@drawable/bt_ctr_suivant" />
+
+        <ImageView
+            android:id="@+id/stop"
+            android:layout_width="78px"
+            android:layout_height="78px"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="440px"
+            android:src="@drawable/bt_ctr_stop" />
+
+        <ImageView
+            android:id="@+id/play"
+            android:layout_width="78px"
+            android:layout_height="78px"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="330px"
+            android:src="@drawable/bt_ctr_play" />
+
+        <ImageView
+            android:id="@+id/pause"
+            android:layout_width="78px"
+            android:layout_height="78px"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="220px"
+            android:src="@drawable/bt_ctr_pause" />
+
+        <ImageView
+            android:id="@+id/precedent"
+            android:layout_width="78px"
+            android:layout_height="78px"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/bt_ctr_precedent" />
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/exit_popup"
+        android:layout_width="1280px"
+        android:layout_height="800px"
+        layout="@layout/exit" />
+
+</RelativeLayout>
+</RelativeLayout>

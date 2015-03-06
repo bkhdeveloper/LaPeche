@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/contents"
+        android:layout_width="1280px"
+        android:layout_height="800px"
+        android:layout_gravity="center"
+        android:background="@drawable/sc1_ep3" >
+
+        <ImageView
+            android:id="@+id/renard"
+            android:layout_width="389px"
+            android:layout_height="334px"
+            android:layout_marginLeft="132px"
+            android:layout_marginTop="142px"
+            android:background="@drawable/renard_sc2" />
+
+        <ImageView
+            android:id="@+id/loup"
+            android:layout_width="360px"
+            android:layout_height="318px"
+            android:layout_marginLeft="548px"
+            android:layout_marginTop="190px"
+            android:background="@drawable/loup_sc2" />
+         <ImageView
+            android:layout_width="640px"
+            android:layout_height="479px"
+            android:layout_marginLeft="650px"
+            android:layout_marginTop="120px"
+            android:background="@drawable/texte_sc1" />
+
+        <RelativeLayout
+            android:layout_width="470px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="740px"
+            android:layout_marginTop="180px" >
+
+            <TextView
+                android:id="@+id/baseTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FF4500"
+                android:textSize="36px" />
+
+            <TextView
+                android:id="@+id/ka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="36px" />
+        </RelativeLayout>
+        <include
+            android:id="@+id/scene_controle"
+            android:layout_width="1280px"
+            android:layout_height="800px"
+            layout="@layout/scene_ep3" />
+
+        <include
+            android:id="@+id/exit_popup"
+            android:layout_width="1280px"
+            android:layout_height="800px"
+            layout="@layout/exit" />
+    </RelativeLayout>
+
+</FrameLayout>

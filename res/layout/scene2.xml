@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/contents"
+        android:layout_width="1280px"
+        android:layout_height="800px"
+        android:layout_gravity="center"
+        android:background="@drawable/sc2_ep1" >
+
+        <ImageView
+            android:id="@+id/bucheron"
+            android:layout_width="267px"
+            android:layout_height="416px"
+            android:layout_marginLeft="570px"
+            android:layout_marginTop="255px"
+            android:background="@drawable/bucheron_sc2" />
+
+        <ImageView
+            android:id="@+id/renard"
+            android:layout_width="366px"
+            android:layout_height="336px"
+            android:layout_marginLeft="900px"
+            android:layout_marginTop="170px"
+            android:background="@drawable/renard_sc2" />
+
+         <ImageView
+            android:layout_width="640px"
+            android:layout_height="479px"
+            android:layout_marginTop="260px"
+            android:background="@drawable/texte_sc1" />
+
+        <RelativeLayout
+            android:layout_width="470px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90px"
+            android:layout_marginTop="320px" >
+
+            <TextView
+                android:id="@+id/baseTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FF4500"
+                android:textSize="36px" />
+
+            <TextView
+                android:id="@+id/ka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="36px" />
+        </RelativeLayout>
+
+        <include
+            android:id="@+id/scene_controle"
+            android:layout_width="1280px"
+            android:layout_height="800px"
+            layout="@layout/scene" />
+
+        <include
+            android:id="@+id/exit_popup"
+            android:layout_width="1280px"
+            android:layout_height="800px"
+            layout="@layout/exit" />
+    </RelativeLayout>
+
+</FrameLayout>

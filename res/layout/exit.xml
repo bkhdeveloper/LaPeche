@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_exit"
+    android:layout_width="1280px"
+    android:layout_height="800px"
+    android:background="@drawable/popup_exit" 
+    android:visibility="invisible">
+
+    <ImageView
+        android:id="@+id/popup"
+        android:layout_width="746px"
+        android:layout_height="649px"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="450px"
+        android:layout_marginTop="186px"
+        android:src="@drawable/popup" />
+    
+        <ImageView
+        android:layout_width="157px"
+        android:layout_height="226px"
+        android:layout_marginLeft="420px"
+        android:layout_marginTop="450px"
+        android:src="@drawable/tete_exit" />
+        
+         <ImageView
+        android:layout_width="157px"
+        android:layout_height="226px"
+        android:layout_marginLeft="600px"
+        android:layout_marginTop="450px"
+        android:src="@drawable/tete_exit" />
+
+    <ImageView
+        android:id="@+id/btn_oui"
+        
+        android:layout_width="103px"
+        android:layout_height="60px"
+        android:layout_marginLeft="445px"
+        android:layout_marginTop="500px"
+        android:src="@drawable/oui" />
+
+    <ImageView
+        android:id="@+id/btn_non"
+        android:layout_width="90px"
+        android:layout_height="65px"
+        android:layout_marginLeft="635px"
+        android:layout_marginTop="500px"
+        android:src="@drawable/non" />
+
+</RelativeLayout>

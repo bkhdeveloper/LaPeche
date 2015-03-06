@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_exit"
+    android:layout_width="1280px"
+    android:layout_height="800px"
+    android:background="@drawable/bg_noir_400"
+    android:visibility="invisible">
+
+    <ImageView
+        android:id="@+id/popup"
+        android:layout_width="887px"
+        android:layout_height="800px"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="450px"
+        android:layout_marginTop="186px"
+        android:src="@drawable/popup_down" />
+    <ImageView
+        android:id="@+id/activite"
+        android:layout_width="143px"
+        android:layout_height="59px"
+        android:layout_marginLeft="540px"
+        android:layout_marginTop="360px"
+        android:background="@drawable/act_accueil" />
+    
+    <ImageView
+        android:id="@+id/btn_telecharger"
+        android:layout_width="300px"
+        android:layout_height="72px"
+        android:layout_marginLeft="440px"
+        android:layout_marginTop="480px"
+        android:src="@drawable/btn_downlod_ep" />
+</RelativeLayout>

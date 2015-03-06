@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/contents"
+        android:layout_width="1280px"
+        android:layout_height="800px"
+        android:layout_gravity="center"
+        android:background="@drawable/sc1_ep2" >
+
+        <ImageView
+            android:id="@+id/loup1"
+            android:layout_width="61px"
+            android:layout_height="75px"
+            android:layout_marginLeft="36px"
+            android:layout_marginTop="184px"
+            android:background="@drawable/loup1_sc1"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/loup2"
+            android:layout_width="66px"
+            android:layout_height="84px"
+            android:layout_marginLeft="162px"
+            android:layout_marginTop="176px"
+            android:background="@drawable/loup2_sc1"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/loup3"
+            android:layout_width="137px"
+            android:layout_height="171px"
+            android:layout_marginLeft="126px"
+            android:layout_marginTop="212px"
+            android:background="@drawable/loup3_sc1"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/loup"
+            android:layout_width="254px"
+            android:layout_height="319px"
+            android:layout_marginLeft="420px"
+            android:layout_marginTop="370px"
+            android:background="@drawable/loup_sc1"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/odeur"
+            android:layout_width="399px"
+            android:layout_height="172px"
+            android:layout_marginLeft="204px"
+            android:layout_marginTop="120px"
+            android:background="@drawable/odeur_sc1"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/renard"
+            android:layout_width="298px"
+            android:layout_height="305px"
+            android:layout_marginLeft="872px"
+            android:layout_marginTop="204px"
+            android:background="@drawable/renard_sc1" />
+
+        <ImageView
+            android:id="@+id/poisson"
+            android:layout_width="211px"
+            android:layout_height="157px"
+            android:layout_marginLeft="760px"
+            android:layout_marginTop="390px"
+            android:background="@drawable/poisson_sc1" />
+
+        <ImageView
+            android:layout_width="640px"
+            android:layout_height="479px"
+            android:layout_marginTop="260px"
+            android:background="@drawable/texte_sc1" />
+
+        <RelativeLayout
+            android:layout_width="470px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90px"
+            android:layout_marginTop="320px" >
+
+            <TextView
+                android:id="@+id/baseTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FF4500"
+                android:textSize="36px" />
+
+            <TextView
+                android:id="@+id/ka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="36px" />
+        </RelativeLayout>
+
+        <include
+            android:id="@+id/scene_controle"
+            android:layout_width="1280px"
+            android:layout_height="800px"
+            layout="@layout/scene_ep2" />
+
+        <include
+            android:id="@+id/exit_popup"
+            android:layout_width="1280px"
+            android:layout_height="800px"
+            layout="@layout/exit" />
+    </RelativeLayout>
+
+</FrameLayout>

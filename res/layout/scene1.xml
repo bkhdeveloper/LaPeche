@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/contents"
+        android:layout_width="1280px"
+        android:layout_height="800px"
+        android:layout_gravity="center"
+        android:background="@drawable/sc1_ep1" >
+
+        <ImageView
+            android:id="@+id/pers1"
+            android:layout_width="265px"
+            android:layout_height="335px"
+            android:layout_marginLeft="660px"
+            android:layout_marginTop="255px"
+            android:background="@drawable/pers1" />
+
+        <ImageView
+            android:id="@+id/pers2"
+            android:layout_width="223px"
+            android:layout_height="195px"
+            android:layout_marginLeft="840px"
+            android:layout_marginTop="170px"
+            android:background="@drawable/pers2" />
+
+        <ImageView
+            android:id="@+id/pers3"
+            android:layout_width="207px"
+            android:layout_height="197px"
+            android:layout_marginLeft="1046px"
+            android:layout_marginTop="305px"
+            android:background="@drawable/pers3" />
+
+        <ImageView
+            android:id="@+id/pers4"
+            android:layout_width="122px"
+            android:layout_height="131px"
+            android:layout_marginLeft="550px"
+            android:layout_marginTop="202px"
+            android:background="@drawable/pers4" />
+
+        <ImageView
+            android:id="@+id/pers5"
+            android:layout_width="237px"
+            android:layout_height="140px"
+            android:layout_marginLeft="960px"
+            android:layout_marginTop="560px"
+            android:background="@drawable/pers5" />
+        <ImageView
+            android:layout_width="640px"
+            android:layout_height="479px"
+            android:layout_marginTop="260px"
+            android:background="@drawable/texte_sc1" />
+
+        <RelativeLayout
+            android:layout_width="470px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90px"
+            android:layout_marginTop="320px" >
+
+            <TextView
+                android:id="@+id/baseTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FF4500"
+                android:textSize="36px" />
+
+            <TextView
+                android:id="@+id/ka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="36px" />
+        </RelativeLayout>
+
+        <include
+            android:id="@+id/scene_controle"
+            android:layout_width="1280px"
+            android:layout_height="800px"
+            layout="@layout/scene_g" />
+
+        <include
+            android:id="@+id/exit_popup"
+            android:layout_width="1280px"
+            android:layout_height="800px"
+            layout="@layout/exit" />
+    </RelativeLayout>
+
+</FrameLayout>

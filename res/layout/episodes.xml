@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/contents"
+        android:layout_width="1280px"
+        android:layout_height="800px"
+        android:layout_gravity="center"
+        android:background="@drawable/interface_episode" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/exit"
+                android:layout_width="44px"
+                android:layout_height="43px"
+                android:layout_marginLeft="84px"
+                android:layout_marginTop="50px"
+                android:src="@drawable/bt_exit" />
+
+            <ImageView
+                android:id="@+id/home"
+                android:layout_width="68px"
+                android:layout_height="60px"
+                android:layout_marginLeft="137px"
+                android:layout_marginTop="30px"
+                android:src="@drawable/bt_home" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/barre"
+            android:layout_width="30px"
+            android:layout_height="573px"
+            android:layout_marginLeft="218px"
+            android:layout_marginTop="172px"
+            android:background="@drawable/barre" />
+
+        <ImageView
+            android:id="@+id/episode"
+            android:layout_width="495px"
+            android:layout_height="268px"
+            android:layout_marginLeft="1px"
+            android:layout_marginTop="176px"
+            android:background="@drawable/bt_episode" />
+
+        <ImageView
+            android:id="@+id/renard1"
+            android:layout_width="318px"
+            android:layout_height="336px"
+            android:layout_marginLeft="174px"
+            android:layout_marginTop="368px"
+            android:background="@drawable/renard_ep" />
+        
+                <ImageView
+            android:id="@+id/neige"
+            android:layout_width="1260px"
+            android:layout_height="180px"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/neige_episode" />
+
+        <ImageView
+            android:id="@+id/episode1"
+            android:layout_width="266px"
+            android:layout_height="224px"
+            android:layout_marginLeft="604px"
+            android:layout_marginTop="306px"
+            android:background="@drawable/episode1" />
+
+        <ImageView
+            android:id="@+id/episode2"
+            android:layout_width="266px"
+            android:layout_height="223px"
+            android:layout_marginLeft="936px"
+            android:layout_marginTop="240px"
+            android:background="@drawable/episode2" />
+
+        <ImageView
+            android:id="@+id/episode3"
+            android:layout_width="266px"
+            android:layout_height="223px"
+            android:layout_marginLeft="864px"
+            android:layout_marginTop="492px"
+            android:background="@drawable/episode3" />
+
+
+        <include
+            android:id="@+id/exit_popup"
+            android:layout_width="1280px"
+            android:layout_height="800px"
+            layout="@layout/exit" />
+    </RelativeLayout>
+
+</FrameLayout>
